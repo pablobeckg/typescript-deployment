@@ -1,5 +1,6 @@
-import './style.css';
+import '../style.css';
 import * as lodash from 'lodash';
+// const { BASE_URL } = import.meta.env;
 
 const superCodeKebab = lodash.kebabCase('HALLO SUPERCODE');
 console.log(superCodeKebab)
